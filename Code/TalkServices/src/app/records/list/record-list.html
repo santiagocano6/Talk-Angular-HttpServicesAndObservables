@@ -1,0 +1,15 @@
+<h1>Hi Records</h1>
+<div class="divTable">
+  <div class="divTableHead">
+    <div class="divTableCell">id</div>
+    <div class="divTableCell">name</div>
+    <div class="divTableCell">email</div>
+    <div class="divTableCell">body</div>
+  </div>
+  <div *ngFor="let record of records" class="divTableRow">
+    <div class="divTableCell">{{record.id}}</div>
+    <div class="divTableCell">{{record.name}}</div>
+    <div class="divTableCell">{{record.email}}</div>
+    <div class="divTableCell">{{record.body}}</div>
+  </div>
+</div>
